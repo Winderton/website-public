@@ -1,0 +1,79 @@
+
+
+.container {
+  color: white;
+  background-image: url("../public/gitback.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  margin-inline: auto;
+  width: 100%;
+  max-width: 49.5rem;
+  padding: 3rem 0;
+  height: 40vh;
+}
+
+.gitHeaderh3 {
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  font-family: "Gravity-Regular";
+  font-weight: 100;
+  letter-spacing: 3px;
+  font-size: 50px;
+}
+
+.gitFootContainer {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.gitBlock {
+  text-align: center;
+  font-family: "Gravity-Light";
+  font-weight: 100;
+  width: 15%;
+}
+
+.num {
+  text-align: center;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.myButton {
+  width: 150px;
+  height: 45px;
+  border: none;
+  color: black;
+  background-color: rgb(218, 236, 225);
+  border-radius: 5px;
+  box-shadow: inset 1 0 0 0 rgb(51, 176, 70);
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  outline: none;
+}
+
+.myButton:hover {
+  box-shadow: inset 150px 0 0 0 rgb(51, 176, 70);
+  cursor: pointer;
+  color: white;
+}
+
+.buttonContainerAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding-top: 80px;
+}

@@ -1,0 +1,61 @@
+.container {
+    background-color:rgb(27, 27, 27);
+    color: rgb(228, 228, 228);
+    font-family: "Gravity-Regular";
+    width: 100%;
+    padding: 5rem 0;
+}
+
+.header {
+    margin-inline: auto;
+    width: 90%;
+    max-width: 38rem;
+    padding: 1rem 0;
+}
+
+.socialContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+  
+
+.rights {
+    background-color: black;
+    text-align: center;
+    font-family: "Gravity-Light";
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+.desc {
+    text-align: center;
+    margin: 5rem 0rem;
+}
+
+.social {
+    
+}
+
+.youtube:hover {
+    transition: ease-in-out 0.1s;
+    color: rgb(255, 17, 17);
+}
+
+.instagram:hover {
+    transition: ease-in-out 0.1s;
+    color: rgb(132, 24, 255);
+}
+
+.github:hover {
+    transition: ease-in-out 0.1s;
+    color: rgb(37, 167, 54);
+}
+
+.patreon:hover {
+    transition: ease-in-out 0.1s;
+    color: rgb(221, 97, 14);
+}
+
+

@@ -1,0 +1,68 @@
+.header {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.youtubeHeaderh3 {
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 1vh;
+  font-family: "Gravity-Light";
+  font-weight: 400;
+  letter-spacing: 7px;
+  font-size: 50px;
+}
+
+.youtubeFootContainer {
+  color: black;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.youtubeBlock {
+  text-align: center;
+  font-family: "Gravity-Light";
+  font-weight: 100;
+  width: 20%;
+}
+
+.num {
+  text-align: center;
+  font-family:"Gravity-Light";
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding-top: 7rem;
+}
+
+.myButton {
+  width: 150px;
+  height: 45px;
+  border: none;
+  color: white;
+  background-color: rgb(0, 132, 255);
+  border-radius: 5px;
+  box-shadow: inset 1 0 0 0 rgb(0, 17, 255);
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  outline: none;
+}
+
+.myButton:hover {
+  box-shadow: inset 150px 0 0 0 rgb(0, 81, 255);
+  cursor: pointer;
+  color: white;
+}

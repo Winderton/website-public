@@ -1,0 +1,62 @@
+.container {
+    background-color:rgb(27, 27, 27);
+    color: rgb(228, 228, 228);
+    font-family: 'Robato', sans-serif;
+    width: 100%;
+}
+
+.header {
+    margin-inline: auto;
+    width: 70%;
+    max-width: 38rem;
+    padding: 4rem 0;
+}
+
+.socialContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+  
+
+.rights {
+    background-color: black;
+    color: rgb(240, 240, 240);
+    text-align: center;
+    font-family: 'Robato', sans-serif;
+    font-size: 0.85rem;
+
+}
+
+
+.desc {
+    text-align: center;
+    margin: 2rem 0rem;
+    font-family: 'Robato', sans-serif;
+}
+
+.social {
+    margin: 2rem 0;
+}
+
+.youtube:hover {
+    transition: ease-in-out 0.1s;
+    color: rgb(255, 17, 17);
+}
+
+.instagram:hover {
+    transition: ease-in-out 0.1s;
+    color: rgb(132, 24, 255);
+}
+
+.github:hover {
+    transition: ease-in-out 0.1s;
+    color: rgb(37, 167, 54);
+}
+
+.patreon:hover {
+    transition: ease-in-out 0.1s;
+    color: rgb(221, 97, 14);
+}
+
+

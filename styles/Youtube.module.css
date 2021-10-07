@@ -1,0 +1,66 @@
+.container {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding: 3rem 0;
+}
+
+.header {
+  margin-inline: auto;
+  width: 90%;
+  max-width: 48rem;
+  
+}
+
+.header h3 {
+  padding-bottom: 1em;
+  color: black;
+  font-family: 'Robato', sans-serif;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 5px;
+  font-size: 3.9em;
+}
+
+.youtubeFootContainer {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.youtubeBlock {
+  text-align: center;
+  font-family: 'Robato', sans-serif;
+  font-weight: 400;
+}
+
+.num {
+  text-align: center;
+  font-family: 'Robato', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.buttonContainer {
+
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.myButton {
+  width: 150px;
+  height: 45px;
+  border: none;
+  color: white;
+  background-color: rgb(0, 132, 255);
+  border-radius: 5px;
+  box-shadow: inset 1 0 0 0 rgb(0, 17, 255);
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  outline: none;
+}
+
+.myButton:hover {
+  box-shadow: inset 150px 0 0 0 rgb(0, 81, 255);
+  cursor: pointer;
+  color: white;
+}

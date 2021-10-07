@@ -1,0 +1,117 @@
+.mainHeader {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+.container {
+  display: flex;
+  margin-inline: auto;
+  width: 90%;
+  max-width: 49.5rem;
+  padding: 3rem 0;
+}
+
+.header {
+  padding: 3rem 0;
+  
+}
+
+
+.footContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.block {
+  flex-basis: 0;
+}
+
+.footContainer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footContainer li {
+  padding: 6px;
+  padding-left: 0px;
+}
+
+.footContainer a:hover {
+  background-color: rgba(190, 195, 200, 0.28);
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  font-family: "Gravity-Bold";
+  color: white;
+}
+
+.description {
+  padding: 0;
+  margin: 0;
+  font-family: "Gravity-Light";
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+.git {
+  color: white;
+  background-image: url("../public/gitback.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+.buttonContainerAbout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.myButtonAbout {
+  width: 150px;
+  height: 45px;
+  border: none;
+  color: white;
+  background-color: rgb(0, 132, 255);
+  border-radius: 5px;
+  box-shadow: inset 1 0 0 0 rgb(0, 17, 255);
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  outline: none;
+}
+
+.myButtonAbout:hover {
+  box-shadow: inset 150px 0 0 0 rgb(0, 81, 255);
+  cursor: pointer;
+  color: white;
+}
+
+
+.youtube {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(255, 255, 255);
+}

@@ -1,0 +1,63 @@
+.container {
+  color: white;
+  background-image: url("../public/gitback.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.header {
+  margin-inline: auto;
+  width: 90%;
+  max-width: 40rem;
+  padding: 1rem 0;
+}
+
+.header h4{
+  padding-bottom: 1em;
+  text-align: center;
+  font-family: 'Robato', sans-serif;
+  font-size: 1.9em;
+  font-weight: 400;
+
+}
+
+.gitFootContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gitBlock {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.num {
+  font-weight: 400;
+}
+
+.buttonContainer {
+  text-align: center;
+  padding: 3em 0;
+}
+
+.myButton {
+  width: 150px;
+  height: 45px;
+  border: none;
+  color: black;
+  background-color: rgb(218, 236, 225);
+  border-radius: 5px;
+  box-shadow: inset 1 0 0 0 rgb(51, 176, 70);
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  outline: none;
+}
+
+.myButton:hover {
+  box-shadow: inset 150px 0 0 0 rgb(51, 176, 70);
+  cursor: pointer;
+  color: white;
+}
