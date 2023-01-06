@@ -12,7 +12,7 @@ h2,
 h3,
 h4,
 p {
-  margin-bottom: 0em;
+  margin-bottom: 0;
 }
 
 html,
@@ -29,6 +29,8 @@ a {
 }
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -58,7 +60,7 @@ nav {
 }
 
 nav.sticky {
-  padding: 0rem 8rem;
+  padding: 0 8rem;
   background: #fff;
 }
 
