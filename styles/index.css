@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.myButtonAbout {
+    width: 150px;
+    height: 45px;
+    border: none;
+    color: white;
+    background-color: rgb(0, 132, 255);
+    border-radius: 5px;
+    box-shadow: inset 1px 0 0 0 rgb(0, 17, 255);
+    transition: ease-out 0.3s;
+    font-size: 1rem;
+    outline: none;
+}
+
+.myButtonAbout:hover {
+    box-shadow: inset 150px 0 0 0 rgb(0, 81, 255);
+    cursor: pointer;
+    color: white;
+}

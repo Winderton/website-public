@@ -4,7 +4,7 @@ import Footer from '../components/Footer'
 const Layout = () => {
   return (
     <>
-      <Nav></Nav>
+      <Nav />
       <Footer/>
     </>
   );

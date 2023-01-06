@@ -8,8 +8,8 @@ import env from '../enviroment/env'
 
 const {Octokit} = require("@octokit/rest");
 
-var calculated = false;
-var followersCountOld = 0;
+let calculated = false;
+let followersCountOld = 0;
 
 export async function getServerSideProps(context) {
 

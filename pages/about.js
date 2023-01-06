@@ -17,10 +17,10 @@ const About = () => {
         <div className={styles.header}>
           <h1>WINDERTON</h1>
           <div className={styles.containerImage}>
-            <Image className={styles.image} src={pack} alt="img"></Image>
+            <Image src={pack} alt="img"></Image>
           </div>
           <div className={styles.footContainer}>
-            <div className={styles.block}>
+            <div>
               <h5>Компьютер</h5>
               <ul>
                 <li>i7 8700k</li>
@@ -34,7 +34,7 @@ const About = () => {
                 <li>Steel Series</li>
               </ul>
             </div>
-            <div className={styles.block}>
+            <div>
               <h5>Съемка. Стрим. Фото.</h5>
               <ul>
                 <li>Sony a7ii</li>
@@ -46,7 +46,7 @@ const About = () => {
                 <li>iPhone 11 Pro</li>
               </ul>
             </div>
-            <div className={styles.block}>
+            <div>
               <h5>ПО</h5>
               <ul>
                 <li>Windows 10/OSX</li>
@@ -59,7 +59,7 @@ const About = () => {
                 <li>VS Code</li>
               </ul>
             </div>
-            <div className={styles.block}>
+            <div>
               <h5>Дизайнер</h5>
               <ul>
                 <li>Palm Angels</li>
@@ -72,7 +72,7 @@ const About = () => {
                 <li>...</li>
               </ul>
             </div>
-            <div className={styles.block}>
+            <div>
               <h5>Музыка</h5>
               <ul>
                 <li>Rap/hip-hop</li>
